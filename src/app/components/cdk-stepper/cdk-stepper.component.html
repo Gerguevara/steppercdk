@@ -44,8 +44,8 @@
     <footer class="mt-8">
         <div class="flex justify-between" style="width: 100%;">
             <div>
-                <button *ngIf="selectedIndex > 0" class="shadow bg-green-600 hover:bg-green-700 focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded" cdkStepperPrevious (click)=" backStep()">Atras</button> &nbsp;
-                <button class="shadow bg-green-600 hover:bg-green-700 focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded" *ngIf="selectedIndex < steps.length-1" (click)=" nextStep()">Siguiente</button>
+                <button *ngIf="selectedIndex > 0" class="shadow bg-indigo-600 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded" cdkStepperPrevious (click)=" backStep()">Atras</button> &nbsp;
+                <button class="shadow bg-indigo-600 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded" *ngIf="selectedIndex < steps.length-1" (click)=" nextStep()">Siguiente</button>
             </div>
             <p class="text-gray-500 text-sm">* Campos obligatorios</p>
         </div>
